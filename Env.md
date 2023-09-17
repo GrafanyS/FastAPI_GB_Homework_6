@@ -195,3 +195,11 @@ PS C:\> <venv>\Scripts\Activate.ps1
 ввести следующую команду:*
 
 `pip install -r requirements.txt`
+
+### .env
+
+Создать в корне директории файл .env добавить с `DATABASE_URL`
+
+```dotenv
+DATABASE_URL=sqlite:///database.db
+```
